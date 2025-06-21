@@ -266,7 +266,6 @@ int main()
 
             // 反向传播
             network.backward(batch_inputs, batch_labels);
-            std::cout<<"Current epoch: "<<epoch<<" Current batch: "<<i/BatchSize<<std::endl;
         }
 
         // 输出训练信息
