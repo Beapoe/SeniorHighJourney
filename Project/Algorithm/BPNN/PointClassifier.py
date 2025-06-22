@@ -1,9 +1,6 @@
-from cProfile import label
-from filecmp import cmp
 import torch
 import torch.nn as nn
 import torch.optim as optim
-import matplotlib.pyplot as plt
 
 n_points = 100
 torch.manual_seed(1000)
